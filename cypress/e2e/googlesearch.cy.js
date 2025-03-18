@@ -6,6 +6,7 @@ it('search test', ()=>{
     
     cy.get('#quicksearch-search-box').type('samsung')
     cy.get('.submit-search').click()
+    cy.get('.Button_labelVariants_button__ickenoe[0]').click()
 
 
 })
